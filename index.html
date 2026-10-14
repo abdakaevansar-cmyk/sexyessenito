@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Studio</title>
+    <meta
+      name="description"
+      content="Небольшой сайт на HTML, CSS и JavaScript"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="logo">Nova<span>Studio</span></div>
+        <nav class="menu" id="menu">
+          <a href="#home">Главная</a>
+          <a href="#about">О нас</a>
+          <a href="#services">Услуги</a>
+          <a href="#portfolio">Портфолио</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            ☀️
+          </button>
+          <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <span class="eyebrow">Создаём цифровой опыт</span>
+            <h1>Сайты, которые привлекают и продают.</h1>
+            <p>
+              Мы помогаем брендам, стартапам и бизнесу выделяться в интернете
+              через современный дизайн и понятные пользовательские решения.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn primary">Оставить заявку</a>
+              <a href="#portfolio" class="btn secondary">Смотреть работы</a>
+            </div>
+            <ul class="stats">
+              <li><strong>120+</strong><span>проектов</span></li>
+              <li><strong>4.9/5</strong><span>оценка</span></li>
+              <li><strong>24/7</strong><span>поддержка</span></li>
+            </ul>
+          </div>
+          <div class="hero-card">
+            <div class="mockup">
+              <div class="window-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="dashboard">
+                <div class="chart large"></div>
+                <div class="chart small"></div>
+                <div class="cards-grid">
+                  <div class="mini-card green"></div>
+                  <div class="mini-card blue"></div>
+                  <div class="mini-card purple"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow accent">Почему мы</span>
+            <h2>Дизайн, стратегия и технологии в одном месте</h2>
+          </div>
+          <div class="about-grid">
+            <div class="info-card">
+              <h3>Индивидуальный подход</h3>
+              <p>
+                Подбираем визуальную концепцию и структуру под вашу аудиторию,
+                цели и специфику бизнеса.
+              </p>
+            </div>
+            <div class="info-card">
+              <h3>Удобство для пользователя</h3>
+              <p>
+                Создаём понятные интерфейсы, которые легко использовать на любых
+                устройствах.
+              </p>
+            </div>
+            <div class="info-card">
+              <h3>Результат в цифрах</h3>
+              <p>
+                Фокусируемся на росте конверсии, удержании посетителей и
+                повышении вовлечённости аудитории.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow accent">Услуги</span>
+            <h2>Что мы делаем</h2>
+          </div>
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="icon">✦</div>
+              <h3>Landing Page</h3>
+              <p>Одностраничные сайты для запуска продукта, услуги или кампании.</p>
+            </article>
+            <article class="service-card">
+              <div class="icon">◈</div>
+              <h3>Корпоративные сайты</h3>
+              <p>Профессиональные решения для компаний и агентств любого масштаба.</p>
+            </article>
+            <article class="service-card">
+              <div class="icon">◎</div>
+              <h3>UI/UX дизайн</h3>
+              <p>Проектирование интерфейсов с акцентом на удобство и восприятие.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="portfolio">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow accent">Портфолио</span>
+            <h2>Наши последние проекты</h2>
+          </div>
+          <div class="portfolio-grid">
+            <div class="project-card project-one">
+              <div class="project-content">
+                <span>Маркетплейс</span>
+                <h3>ShopWave</h3>
+              </div>
+            </div>
+            <div class="project-card project-two">
+              <div class="project-content">
+                <span>Стартап</span>
+                <h3>FlowApp</h3>
+              </div>
+            </div>
+            <div class="project-card project-three">
+              <div class="project-content">
+                <span>Брендинг</span>
+                <h3>Astera</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container footer-content">
+        <div>
+          <div class="logo">Nova<span>Studio</span></div>
+          <p>Создаём решения, которые помогают расти вашему бизнесу.</p>
+        </div>
+        <div class="contact-box">
+          <a href="mailto:hello@novastudio.dev">hello@novastudio.dev</a>
+          <a href="tel:+79990000000">+7 (999) 000-00-00</a>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <div class="container">
+          <p>© <span id="year"></span> Nova Studio</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
